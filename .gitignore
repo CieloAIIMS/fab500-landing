@@ -22,3 +22,11 @@
 
 # Root redirect to the landing page
 !/index.html
+
+# Button-only variant (reuses mockup/ images, fonts and script)
+!/mockup-button/
+/mockup-button/*
+!/mockup-button/index.html
+!/mockup-button/assets/
+/mockup-button/assets/*
+!/mockup-button/assets/css/
