@@ -341,11 +341,11 @@ a { color: var(--bt-green); text-underline-offset: 0.2em; text-decoration-thickn
 .bt-hero__scrim {
   position: absolute; inset: 0; z-index: 1;
   background: linear-gradient(to top,
-    rgba(0,0,0,0.95) 0%,
-    rgba(0,0,0,0.93) 32%,
-    rgba(0,0,0,0.88) 52%,
-    rgba(0,0,0,0.60) 66%,
-    rgba(0,0,0,0.18) 78%,
+    rgba(0,0,0,0.80) 0%,
+    rgba(0,0,0,0.74) 32%,
+    rgba(0,0,0,0.62) 52%,
+    rgba(0,0,0,0.38) 66%,
+    rgba(0,0,0,0.10) 78%,
     rgba(0,0,0,0) 90%);
 }
 
@@ -2502,3 +2502,10 @@ a.bt-contact__text:focus-visible { outline: 2px solid var(--bt-green); outline-o
   .js .bt-powerup[data-inview] .bt-arrow__charge { animation: none !important; }
   .bt-powerup__img { transform: none !important; }
 }
+
+/* Sign-off at the end of the page (reuses the trust bar styles) */
+footer.bt-trust { position: static; padding-bottom: 80px; }
+
+/* Trim the thin white frame baked into the supplied steel-fabrication photo */
+.bt-app { overflow: hidden; }
+.bt-app__img[src*="steel-fabrication"] { transform: scale(1.04); }
