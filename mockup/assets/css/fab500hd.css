@@ -2508,4 +2508,3 @@ footer.bt-trust { position: static; padding-bottom: 80px; }
 
 /* Trim the thin white frame baked into the supplied steel-fabrication photo */
 .bt-app { overflow: hidden; }
-.bt-app__img[src*="steel-fabrication"] { transform: scale(1.04); }
